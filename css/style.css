@@ -1,0 +1,88 @@
+/* container */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #cccccc;
+}
+
+/* row */
+.row {
+    position: relative;
+    margin: 0 20px;
+}
+
+/*여백설정부분*/
+
+/* header */
+#header {
+    /* height: 100px; */
+    background: #dddddd;
+}
+
+#header .header-data {
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 30px;
+    display: block;
+    color: #a8a8a8a8;
+}
+
+#header .header-title {
+    font-weight: bold;
+    font-size: 32px;
+    border-bottom: #EBEBEB solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#header .header-id {
+    background: linear-gradient(149.16deg, #A4A9B5 10.18%, rgba(164, 169, 181, 0) 81.31%), #C4C4C4;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    bottom: 11px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
+/*main*/
+/*section*/
+/*bestM*/
+.bestM {}
+
+.best_title {}
+
+.bt_stit {
+    color: #DA5E7C;
+    padding-top: 26px;
+    display: block;
+}
+
+.bt_tit {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 3px;
+}
+
+.bt_desc {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 13px;
+    padding-top: 6px;
+    color: #818181;
+}
+
+/* mediaquery */
+@media (max-width: 1020px) {
+    .container {
+        width: 100%;
+    }
+}

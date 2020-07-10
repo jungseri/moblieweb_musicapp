@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 호환성 때문인데, 인터넷 브라우저로 읽을때 IE버전을 최신버전 edge로 인식해라 라는 거. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <!-- 피씨화면 비율을 모바일에 맞춰서 fit을 커버에 맞게 메타데이터를 준거임 -->
+    <meta name="author" content="jungseri">
+    <!-- 제작자 -->
+    <meta name="description" content="뮤직 모바일 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요">
+    <!-- 설명 -->
+    <meta name="keywords" content="듣기, 2019년 최고의 음악 100선, Apple Music">
+    <!-- 키워드, 메타데이터는 필수로 적어야 구글에 노출이 됨. -->
+    <title>Apple Music App</title>
+    <!-- meta -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- a링크를 썻을때 모바일로 보면 휴대폰번호로 인식할 수 있어서 그거 방지(인식X) -->
+    <meta property="og:title" content="뮤직 모바일 메인">
+    <meta property="og:url" content="https://webstoryboy.github.io/apple">
+    <meta property="og:image" content="https://webstoryboy.github.io/apple/assets/icon/icon.jpg">
+    <meta property="og:description" content="뮤직 모바일 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="뮤직 모바일 메인">
+    <meta name="twitter:url" content="https://webstoryboy.github.io/apple">
+    <meta name="twitter:image" content="https://webstoryboy.github.io/apple/assets/icon/icon.jpg">
+    <meta name="twitter:description" content="뮤직 모바일 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요">
+
+    <!--icon-->
+
+    <!--css-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <time class="header-data">2020년 7월 10일</time>
+                <h1 class="header-title">음악 듣기</h1>
+                <div class="header-id"><span>W</span></div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <main>
+        <section class="music">
+            <article class="bestM">
+                <div class="container">
+                    <div class="row">
+                        <div class="best">
+                            <div class="best_title">
+                                <span class="bt_stit">BEAT1 ON AIR</span>
+                                <h2 class="bt_tit">Travis Mills</h2>
+                                <p class="bt_desc">L.A’s pop culture authority</p>
+<a href="https://jungseri.github.io/moblieweb_music/html/html.html" target="_blank">appleapp</a>
+                            
+                            </div>
+                            <picture>
+                                <!-- 화면 크기별 설정 -->
+                                <source src="../img/bestM01@3x.jpg" media="(min-width : 800px)">
+                                <!-- 미디어 쿼리 설정 최소 가로값 800px일때, 이미지사이즈 설정 -->
+                                <source src="../img/bestM01@2x.jpg" media="(min-width : 600px)">
+                                <!-- 미디어 쿼리 설정 최소 가로값 600px~800px일때, 이미지사이즈 설정 -->
+                                <img src="../img/bestM01.jpg"
+                                    srcset="../img/bestM01.jpg 1x, ../img/bestM01@2x.jpg 2x, ../img/bestM01@3x.jpg 3x"
+                                    alt="이미지1">
+                                <!-- 레티나 모니터나 휴대폰 해상도가 또 다르기 때문에, srcset으로 맞춰줌-->
+                                </picture>
+                        </div>
+                        <!--//best-->
+                    </div>
+                     <!--//row-->
+                </div>
+                <!--//container-->
+            </article>
+            <!--//bestM-->
+            <article class="recentM"></article>
+            <!--//recentM-->
+            <article class="nextM"></article>
+            <!--//nextM-->
+        </section>
+        <!--//music-->
+    </main>
+</body>
+
+</html>
